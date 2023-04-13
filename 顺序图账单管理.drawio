@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" modified="2023-04-08T13:13:28.436Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" etag="0_L7Gj1XvE8cXY3YCGJG" version="21.1.5" type="device">
+  <diagram name="第 1 页" id="q1Zje_L8uIQrVBP5tb2j">
+    <mxGraphModel dx="1805" dy="998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R-gfNX3bE267YXfzRcQb-105" value="订票系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="560" y="70" width="140" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="R-gfNX3bE267YXfzRcQb-106" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="R-gfNX3bE267YXfzRcQb-105">
+          <mxGeometry x="60" y="80" width="10" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="R-gfNX3bE267YXfzRcQb-119" value="验证航班信息" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="R-gfNX3bE267YXfzRcQb-118" parent="R-gfNX3bE267YXfzRcQb-105">
+          <mxGeometry x="0.171" y="20" relative="1" as="geometry">
+            <mxPoint x="60" y="180.11" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="240" y="120" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-gfNX3bE267YXfzRcQb-115" value=":航班(Flight)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="900" y="70" width="150" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="R-gfNX3bE267YXfzRcQb-116" value="登录" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="R-gfNX3bE267YXfzRcQb-115">
+          <mxGeometry x="0.0017" relative="1" as="geometry">
+            <mxPoint x="70" y="80.11" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-gfNX3bE267YXfzRcQb-118" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="R-gfNX3bE267YXfzRcQb-115">
+          <mxGeometry x="70" y="120" width="10" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="R-gfNX3bE267YXfzRcQb-126" value="座位信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="R-gfNX3bE267YXfzRcQb-121" parent="R-gfNX3bE267YXfzRcQb-115">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="440" />
+              <mxPoint x="180" y="400" />
+              <mxPoint x="300" y="360" />
+              <mxPoint x="170" y="240" />
+              <mxPoint x="90" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-gfNX3bE267YXfzRcQb-121" value=":座位(seat)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1280" y="150" width="140" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="R-gfNX3bE267YXfzRcQb-122" value="登录" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="R-gfNX3bE267YXfzRcQb-121">
+          <mxGeometry x="0.0017" relative="1" as="geometry">
+            <mxPoint x="70" y="80.11" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-gfNX3bE267YXfzRcQb-124" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="R-gfNX3bE267YXfzRcQb-121">
+          <mxGeometry x="65" y="210" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="R-gfNX3bE267YXfzRcQb-154" value=":工作人员(Staff)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="250" y="70" width="140" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="R-gfNX3bE267YXfzRcQb-155" value="登录" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="R-gfNX3bE267YXfzRcQb-154">
+          <mxGeometry x="0.0017" relative="1" as="geometry">
+            <mxPoint x="70" y="80.11" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-gfNX3bE267YXfzRcQb-156" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="R-gfNX3bE267YXfzRcQb-154">
+          <mxGeometry x="65" y="90" width="10" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="R-gfNX3bE267YXfzRcQb-157" value="login(ID, password)&amp;nbsp;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="330" y="180" as="sourcePoint" />
+            <mxPoint x="620" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-gfNX3bE267YXfzRcQb-158" value="航班信息管理" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="30" width="1480" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="R-gfNX3bE267YXfzRcQb-120" value="返回信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="R-gfNX3bE267YXfzRcQb-118" parent="1" target="R-gfNX3bE267YXfzRcQb-105">
+          <mxGeometry x="-0.0614" y="-10" relative="1" as="geometry">
+            <mxPoint x="620" y="325.11" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="550" />
+              <mxPoint x="850" y="480" />
+              <mxPoint x="880" y="330" />
+              <mxPoint x="810" y="300" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-gfNX3bE267YXfzRcQb-167" value="add_seat(seat)&amp;nbsp;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="R-gfNX3bE267YXfzRcQb-121">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="980" y="190" as="sourcePoint" />
+            <mxPoint x="1040" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-gfNX3bE267YXfzRcQb-168" value="update_seat(seat)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.027" y="10" width="60" relative="1" as="geometry">
+            <mxPoint x="980" y="410" as="sourcePoint" />
+            <mxPoint x="1350" y="410" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-gfNX3bE267YXfzRcQb-169" value="delete_seat(seat)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.027" y="10" width="60" relative="1" as="geometry">
+            <mxPoint x="980" y="440" as="sourcePoint" />
+            <mxPoint x="1350" y="440" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-gfNX3bE267YXfzRcQb-170" value="check_seat_availability(seat&lt;br style=&quot;border-color: var(--border-color); font-size: 12px; padding: 0px; margin: 0px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;&amp;nbsp;, departure_time)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.027" y="10" width="60" relative="1" as="geometry">
+            <mxPoint x="980" y="490" as="sourcePoint" />
+            <mxPoint x="1350" y="490" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1160" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,169 @@
+<mxfile host="app.diagrams.net" modified="2023-04-06T14:21:35.746Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="9Vj-aPzYKLKDNRulPqzK" version="21.1.4" type="device">
+  <diagram name="第 1 页" id="QKLWncaKjoWYAO75V95u">
+    <mxGraphModel dx="1481" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--56" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="rq7Ni-kiXpAQ4CWCox3--57" target="rq7Ni-kiXpAQ4CWCox3--74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="245" />
+              <mxPoint x="440" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--57" value="登录子程序" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--58" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="645" y="150" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--59" value="取票机控制子程序" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="rq7Ni-kiXpAQ4CWCox3--58">
+          <mxGeometry width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--60" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;" vertex="1" parent="rq7Ni-kiXpAQ4CWCox3--58">
+          <mxGeometry x="160" y="15" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--61" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="rq7Ni-kiXpAQ4CWCox3--58" source="rq7Ni-kiXpAQ4CWCox3--59" target="rq7Ni-kiXpAQ4CWCox3--60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--62" value="出票" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="rq7Ni-kiXpAQ4CWCox3--61">
+          <mxGeometry x="-0.5133" y="-2" relative="1" as="geometry">
+            <mxPoint x="15" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--63" value="登录" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="rq7Ni-kiXpAQ4CWCox3--64" target="rq7Ni-kiXpAQ4CWCox3--57">
+          <mxGeometry x="0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--64" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;fontFamily=Helvetica;fontSize=11;fontColor=default;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="290" y="150" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--65" value="新订单/订单变动" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="rq7Ni-kiXpAQ4CWCox3--66" target="rq7Ni-kiXpAQ4CWCox3--97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--66" value="购票子程序" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="150" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--67" value="购票/退票/改签" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="rq7Ni-kiXpAQ4CWCox3--68" target="rq7Ni-kiXpAQ4CWCox3--66">
+          <mxGeometry x="0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--68" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;fontFamily=Helvetica;fontSize=11;fontColor=default;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--71" value="用户信息" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="rq7Ni-kiXpAQ4CWCox3--73" target="rq7Ni-kiXpAQ4CWCox3--74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--72" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="rq7Ni-kiXpAQ4CWCox3--73" target="rq7Ni-kiXpAQ4CWCox3--89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--73" value="用户信息管理子程序" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="300" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--74" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="315" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--77" value="管理员管理" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="rq7Ni-kiXpAQ4CWCox3--78">
+          <mxGeometry x="0.2235" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="80" y="299" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--78" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;fontFamily=Helvetica;fontSize=11;fontColor=default;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="70" y="229" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--81" value="航班信息" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="rq7Ni-kiXpAQ4CWCox3--83" target="rq7Ni-kiXpAQ4CWCox3--84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--82" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="rq7Ni-kiXpAQ4CWCox3--83" target="rq7Ni-kiXpAQ4CWCox3--89">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--83" value="航班信息管理子程序" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="300" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--84" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="190" y="315" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--85" value="数据查询服务" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="rq7Ni-kiXpAQ4CWCox3--87" target="rq7Ni-kiXpAQ4CWCox3--89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--87" value="数据存储模块" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="250" y="480" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--88" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="rq7Ni-kiXpAQ4CWCox3--89" target="rq7Ni-kiXpAQ4CWCox3--93">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="545" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--89" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;fontFamily=Helvetica;fontSize=11;fontColor=default;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="290" y="420" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--90" value="机票信息" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="rq7Ni-kiXpAQ4CWCox3--93" target="rq7Ni-kiXpAQ4CWCox3--95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--91" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="rq7Ni-kiXpAQ4CWCox3--93" target="rq7Ni-kiXpAQ4CWCox3--74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="270" />
+              <mxPoint x="460" y="270" />
+              <mxPoint x="460" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--92" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="rq7Ni-kiXpAQ4CWCox3--93" target="rq7Ni-kiXpAQ4CWCox3--84">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="380" />
+              <mxPoint x="230" y="380" />
+              <mxPoint x="230" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--93" value="机票管理子程序" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="300" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--94" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="rq7Ni-kiXpAQ4CWCox3--95" target="rq7Ni-kiXpAQ4CWCox3--59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="695" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--95" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="645" y="315" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--96" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.596;entryY=0.037;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="rq7Ni-kiXpAQ4CWCox3--97" target="rq7Ni-kiXpAQ4CWCox3--93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--97" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;fontFamily=Helvetica;fontSize=11;fontColor=default;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="520" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="rq7Ni-kiXpAQ4CWCox3--107">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--107" value="用户航班查询子程序" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="140" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--108" value="查看航班信息" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="rq7Ni-kiXpAQ4CWCox3--109" target="rq7Ni-kiXpAQ4CWCox3--107">
+          <mxGeometry x="0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rq7Ni-kiXpAQ4CWCox3--109" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;fontFamily=Helvetica;fontSize=11;fontColor=default;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="170" y="70" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
